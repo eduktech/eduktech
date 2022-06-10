@@ -1,1 +1,1 @@
-# eduktech
+# eduktech.
