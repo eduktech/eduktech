@@ -2,13 +2,11 @@ package br.com.generation.eduktech;
 
 import java.util.Scanner;
 
-public class kids {
+public class Kids {
+	
+	public void kids() {
 	int jogo, nivel;
-
 	Scanner ler = new Scanner(System.in);
-
-	//if (idade > 06 && idade =< 12) {
-
 	System.out.println("Ja brincou aqui antes? Digite '1' para sim ou '2' para nao?");
 	nivel = ler.nextInt();
 
