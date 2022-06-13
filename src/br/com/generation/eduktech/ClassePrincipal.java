@@ -3,7 +3,7 @@ package br.com.generation.eduktech;
 import java.util.Scanner;
 
 public class ClassePrincipal {
-	
+
 	/*
 	 * Classe principal, aqui teremos todas as chamadas de metodos
 	 */
@@ -15,6 +15,7 @@ public class ClassePrincipal {
 		Adolescentes adolescentes = new Adolescentes();
 		Frontend f = new Frontend();
 		mobile m = new mobile();
+		BackEnd b = new BackEnd();
 
 		// abertura do programa
 		System.out.println("=========================================================");
@@ -22,7 +23,6 @@ public class ClassePrincipal {
 		System.out.println("=                      EDUKTECH                         =");
 		System.out.println("=                    SEJA BEM VINDE!                    =");
 		System.out.println("=========================================================");
-		
 		
 		
 		Scanner in = new Scanner(System.in);
@@ -66,7 +66,7 @@ public class ClassePrincipal {
 					f.front01();
 					break;
 				case 2:
-					//backend
+					b.Backend();
 					break;
 				case 3:
 					m.mobileglobal();
@@ -82,7 +82,7 @@ public class ClassePrincipal {
 			}
 			
 		}else {
-			System.out.println("OBRIGADO POR PARTICIPAR DO PROGRAMA. CONTINUE ESTUDANDO");
+			System.out.println("OBRIGADO POR PARTICIPAR DO PROGRAMA. CONTINUE ESTUDANDO2");
 		}
 
 	}
