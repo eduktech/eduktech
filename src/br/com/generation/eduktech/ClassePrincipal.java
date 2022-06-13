@@ -16,6 +16,7 @@ public class ClassePrincipal {
 		Frontend f = new Frontend();
 		mobile m = new mobile();
 		BackEnd b = new BackEnd();
+		FullStack fS = new FullStack();
 
 		// abertura do programa
 		System.out.println("=========================================================");
@@ -72,7 +73,7 @@ public class ClassePrincipal {
 					m.mobileglobal();
 					break;
 				case 4:
-					//fullstack
+					fS.fullStack();
 					break;
 				default:
 					System.out.println("ESCOLHA UMA OPÇÃO VÁLIDA");

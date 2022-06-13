@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FullStack {
 
-	public static void main(String[] args) {
+	public void fullStack() {
 
 		char opcaoDigitada;
 
