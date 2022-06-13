@@ -1,9 +1,6 @@
-package mobile;
+package br.com.generation.eduktech;
 import javax.swing.JOptionPane;
  public class mobile {
-	
-
-void mobile (int mobile) {
 	 int numero;
 	 JOptionPane.showMessageDialog(null,"-----> Sejam Bem vindes a pagina Mobile <-----");
 	JOptionPane.showMessageDialog(null, "Digite qual tipo de curso você vai acessar de mobile: 1 para: Kotlin Android Studio 2 para: Swift iOS 3 para: Python: o camaleão das linguagens");
@@ -31,5 +28,5 @@ void mobile (int mobile) {
   } else {
 	  JOptionPane.showMessageDialog(null,"Numero invalido por favor coloque de 1 até 3 somente! ");
   }
- }
+ 
 }
